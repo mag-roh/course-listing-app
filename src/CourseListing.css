@@ -1,0 +1,20 @@
+.navbar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.searchbar{
+    padding-left: 10px;
+}
+
+.student__dashboard{
+    padding-right: 10px;
+}
+
+.student__dashboard:hover{
+    cursor: pointer;
+}

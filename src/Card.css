@@ -1,0 +1,22 @@
+.card{
+    width: 500px;
+    height: 250px;
+    border-radius: 1rem;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin: 10px;
+}
+.card:hover {
+cursor:pointer;
+}
+.card > img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.card > div{
+    float: right;
+}
