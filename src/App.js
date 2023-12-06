@@ -3,7 +3,6 @@ import CourseListing from "./CourseListing";
 import { Routes, Route } from "react-router-dom";
 import CourseInfo from "./CourseInfo";
 import StudentDash from "./StudentDash";
-import db from "./firebase";
 function App() {
   return (
     <div className="App">

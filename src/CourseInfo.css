@@ -1,12 +1,16 @@
-.courseInfo > h1 {
-    justify-content: center;
+.courseInfo {
+  display: block;
 }
-.courseInfo__card{
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+.courseInfo > h1 {
+  justify-content: center;
+}
+.courseInfo__card {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }

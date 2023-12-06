@@ -1,6 +1,9 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
+import "./StudentDash.css";
+import { courses } from "./StateProvider";
 const StudentDash = () => {
-  return <div>StudentDash</div>;
+  const [enrolledCourses, setEnrolledCourses] = useState([]);
+
+  return <div className="student__dashboard">Welcome Alice!!</div>;
 };
 export default StudentDash;

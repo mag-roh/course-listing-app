@@ -5,7 +5,7 @@ export const CourseContext = createContext();
 
 export const CourseProvider = ({ children }) => {
   const [courses, setCourses] = useState([]);
-  const [selectedCourse, setSelectedCourse] = useState();
+  const [selectedCourse, setSelectedCourse] = useState(null);
   useEffect(() => {
     db.collection("courses").onSnapshot((snapshot) =>
       setCourses(
